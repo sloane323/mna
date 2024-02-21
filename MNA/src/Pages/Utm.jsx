@@ -107,10 +107,6 @@ const Utm = () => {
             Google analytics에서 구글 광고에 대한 Traffic은 google/cpc로 표시됩니다.<br /> 구글 광고 랜딩페이지에 UTM을 설정하셨더라도 google/cpc가 우선입니다.<br />
             타 매체의 경우, google 제품이 아니기 때문에 UTM 입력한 내용에 맞춰 표시 됩니다. UTM이 없을 경우, GA4 판단에 따라 표시됩니다.
           </AccordionDetails>
-          <AccordionActions>
-            <Button>Cancel</Button>
-            <Button>Agree</Button>
-          </AccordionActions>
         </Accordion>
 
         <Stack sx={{ justifyContent: 'center', alignItems: 'center' }} style={{ marginTop: "10px" }}>
