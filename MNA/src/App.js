@@ -24,7 +24,7 @@ export default function App() {
       <h1 onClick={() => handleClick("/")}><AccessibilityIcon /> M&A-KR <AccessibilityNewIcon /> </h1>
       <Menu />
       <Routes>
-        <Route path="/mna" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/precall" element={<Precall />} />
         <Route path="/call" element={<Call />} />
         <Route path="/aftercall" element={<Aftercall />} />
