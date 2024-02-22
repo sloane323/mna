@@ -8,7 +8,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <BrowserRouter basename={"https://sloane323.github.io/mna/"} >
+    <BrowserRouter Basename={"https://sloane323.github.io/mna/"} >
       <App />
     </BrowserRouter>
   </StrictMode>
